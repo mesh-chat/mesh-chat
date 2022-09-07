@@ -13,6 +13,9 @@ export const HomeScreen = ({navigation}) => {
             <TouchableOpacity onPress={() => navigation.navigate('Dialogs', {})}>
                 <PostText> {"Зв'язок"} </PostText>
             </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate('SOS', {})}>
+                <PostText> {"SOS"} </PostText>
+            </TouchableOpacity>
         </HomeView>
     );
 }

@@ -1,32 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="24aa436b-fc9d-4248-804c-d5b8bb08eabd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.expo-shared/assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/mesh-chat.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/adaptive-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/splash.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/babel.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Contact.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screens/Dialogs/Dialog/Dialog.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screens/Dialogs/Dialog/DialogStyles.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screens/Dialogs/Dialogs.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screens/Dialogs/DialogsStyles.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screens/Home/Home.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screens/Home/HomeStyles.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screens/Navigation.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    <list default="true" id="24aa436b-fc9d-4248-804c-d5b8bb08eabd" name="Changes" comment="Init, navigation setup, implemented getting user numbers">
+      <change afterPath="$PROJECT_DIR$/screens/Sos/Sos.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screens/Sos/SosStyles.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/screens/Dialogs/Dialogs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/Home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/screens/Home/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/Navigation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/screens/Navigation.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,8 +57,16 @@
       <option name="presentableId" value="Default" />
       <updated>1662490705277</updated>
       <workItem from="1662490706569" duration="11851000" />
-      <workItem from="1662550208089" duration="11390000" />
+      <workItem from="1662550208089" duration="13809000" />
     </task>
+    <task id="LOCAL-00001" summary="Init, navigation setup, implemented getting user numbers">
+      <created>1662562097776</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662562097776</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,5 +82,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Init, navigation setup, implemented getting user numbers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Init, navigation setup, implemented getting user numbers" />
   </component>
 </project>
