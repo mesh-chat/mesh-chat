@@ -6,11 +6,17 @@ const PostText = styled.Text`
   font-size: 18px;
   line-height: 24px;
 `
-export const HomeScreen = ({navigation}) => {
+
+export const HomeScreen = ({navigation, phoneNumber, updatePhoneNumber}) => {
     navigation.setOptions("Home");
+    let onChangePhoneNumber = (e) => {
+        let phoneNumber = e.nativeEvent.text;
+        updatePhoneNumber(phoneNumber)
+    }
+
     return (
         <HomeView>
-            <HomeTextInput placeholder="Enter your number: "></HomeTextInput>
+            <HomeTextInput onChange={onChangePhoneNumber} placeholder="Enter your number: " value={phoneNumber}></HomeTextInput>
             <HomeButton title="Submit" onPress={() => Alert.alert("Надо либу подключить :(")} />
             <TouchableOpacity onPress={() => navigation.navigate('Dialogs', {})}>
                 <PostText> {"Зв'язок"} </PostText>

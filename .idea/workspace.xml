@@ -1,14 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="24aa436b-fc9d-4248-804c-d5b8bb08eabd" name="Changes" comment="Added Sos screen and styles">
+    <list default="true" id="24aa436b-fc9d-4248-804c-d5b8bb08eabd" name="Changes" comment="Added some styles">
+      <change afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/Dialogs/DialogsStyles.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/Home/HomeContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/screens/Dialogs/Dialogs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/Home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/screens/Home/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/Home/HomeStyles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/screens/Home/HomeStyles.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/Navigation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/screens/Navigation.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/Sos/SosStyles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/screens/Sos/SosStyles.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Contact.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contact.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/Dialogs/Dialog/Dialog.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Dialogs/Dialog/Dialog.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/Dialogs/Dialog/DialogStyles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Dialogs/Dialog/DialogStyles.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Dialogs/Dialogs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/Dialogs/DialogsStyles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/home-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/Home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Home/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/Home/HomeStyles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Home/HomeStyles.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/Navigation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Navigation.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/Sos/Sos.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Sos/Sos.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/Sos/SosStyles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Sos/SosStyles.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +56,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/screens/Home" />
     </key>
   </component>
@@ -58,7 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1662490705277</updated>
       <workItem from="1662490706569" duration="11851000" />
-      <workItem from="1662550208089" duration="15338000" />
+      <workItem from="1662550208089" duration="20100000" />
     </task>
     <task id="LOCAL-00001" summary="Init, navigation setup, implemented getting user numbers">
       <created>1662562097776</created>
@@ -74,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662564856809</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added some styles">
+      <created>1662566910052</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662566910052</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,6 +112,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init, navigation setup, implemented getting user numbers" />
     <MESSAGE value="Added Sos screen and styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Sos screen and styles" />
+    <MESSAGE value="Added some styles" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added some styles" />
   </component>
 </project>

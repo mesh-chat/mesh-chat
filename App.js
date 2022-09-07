@@ -1,8 +1,12 @@
-import {Navigation} from "./screens/Navigation";
+import {Navigation} from "./src/screens/Navigation";
+import {Provider} from "react-redux";
+import store from "./src/redux/store";
 
 
 export default function App() {
     return (
-        <Navigation />
+        <Provider store={store}>
+            <Navigation/>
+        </Provider>
     );
 }
