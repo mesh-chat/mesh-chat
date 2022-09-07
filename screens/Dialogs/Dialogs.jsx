@@ -1,11 +1,10 @@
 import * as Contacts from "expo-contacts";
 import {HomeView} from "../Home/HomeStyles";
-import {FlatList, Text, TouchableOpacity} from "react-native";
+import {FlatList, TouchableOpacity} from "react-native";
 import {useEffect, useState} from "react";
 import {Contact} from "../../components/Contact";
 
 export const DialogsScreen = ({navigation}) => {
-    console.log("SSSSSS")
     const [contacts, setContacts] = useState();
     useEffect(() => {
         (async () => {

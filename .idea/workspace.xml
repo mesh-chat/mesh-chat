@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="24aa436b-fc9d-4248-804c-d5b8bb08eabd" name="Changes" comment="Init, navigation setup, implemented getting user numbers">
-      <change afterPath="$PROJECT_DIR$/screens/Sos/Sos.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screens/Sos/SosStyles.jsx" afterDir="false" />
+    <list default="true" id="24aa436b-fc9d-4248-804c-d5b8bb08eabd" name="Changes" comment="Added Sos screen and styles">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/screens/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/screens/Dialogs/Dialogs.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/screens/Home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/screens/Home/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/Home/HomeStyles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/screens/Home/HomeStyles.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/screens/Navigation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/screens/Navigation.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/Sos/SosStyles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/screens/Sos/SosStyles.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +58,7 @@
       <option name="presentableId" value="Default" />
       <updated>1662490705277</updated>
       <workItem from="1662490706569" duration="11851000" />
-      <workItem from="1662550208089" duration="13809000" />
+      <workItem from="1662550208089" duration="15338000" />
     </task>
     <task id="LOCAL-00001" summary="Init, navigation setup, implemented getting user numbers">
       <created>1662562097776</created>
@@ -66,7 +67,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662562097776</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added Sos screen and styles">
+      <created>1662564856809</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662564856809</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -85,6 +93,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init, navigation setup, implemented getting user numbers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init, navigation setup, implemented getting user numbers" />
+    <MESSAGE value="Added Sos screen and styles" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Sos screen and styles" />
   </component>
 </project>

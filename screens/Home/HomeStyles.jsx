@@ -5,3 +5,16 @@ export const HomeView = styled.View`
   width: 100%;
   background-color: bisque; 
 `
+
+export const HomeButton = styled.Button`
+  height: 40px;
+  width: 100%;
+  background-color: darkslateblue;
+`
+
+export const HomeTextInput = styled.TextInput`
+  height: 40px;
+  margin: 12px;
+  border-width: 1px;
+  padding: 10px;
+`

@@ -1,6 +1,7 @@
 import styled from "styled-components/native";
 
 export const SosDescription = styled.Text`
+  margin-top: 100px;
   width: 300px;
   text-align: center;
 `
