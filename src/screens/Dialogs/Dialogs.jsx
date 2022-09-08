@@ -7,7 +7,7 @@ import { Header } from "../../components/items/Header";
 import { BottomMenu } from "../../components/items/BottomMenu";
 import {ContactsStyle, ContactsTextStyle, Overlay, Search} from "./DialogsStyles";
 
-export const DialogsScreen = ({navigation}) => {
+export const DialogsScreen = ({ navigation }) => {
     const [contacts, setContacts] = useState();
     useEffect(() => {
         (async () => {
@@ -52,7 +52,7 @@ export const DialogsScreen = ({navigation}) => {
                 )}/>
                 </View>
             </Overlay>
-            <BottomMenu />
+            <BottomMenu navigation={navigation} />
         </HomeView>
     );
 }

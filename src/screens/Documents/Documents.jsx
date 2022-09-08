@@ -1,9 +1,9 @@
 import {Text, View} from "react-native";
 
-export const ServicesScreen = () => {
+export const DocumentsScreen = () => {
     return (
         <View>
-            <Text> {'Services'} </Text>
+            <Text>{ 'Documents' }</Text>
         </View>
     )
 }
