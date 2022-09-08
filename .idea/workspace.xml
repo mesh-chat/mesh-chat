@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="24aa436b-fc9d-4248-804c-d5b8bb08eabd" name="Changes" comment="Fixed icons">
-      <change afterPath="$PROJECT_DIR$/src/components/items/ButtonsData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/Documents/Documents.jsx" afterDir="false" />
+    <list default="true" id="24aa436b-fc9d-4248-804c-d5b8bb08eabd" name="Changes" comment="Added navigations">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/items/BottomMenu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/items/BottomMenu.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Dialogs/Dialogs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/Dialogs/Menu/Menu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Dialogs/Menu/Menu.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/Dialogs/Notifications/Notifications.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Dialogs/Notifications/Notifications.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/Dialogs/Services/Services.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Dialogs/Services/Services.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/Home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Home/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/Dialogs/Menu/Menu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Menu/Menu.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/Dialogs/Menu/MenuStyles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Menu/MenuStyles.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/Dialogs/Notifications/Notifications.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Notifications/Notifications.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/Dialogs/Notifications/NotificationsStyles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Notifications/NotificationsStyles.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/Dialogs/Services/Services.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Services/Services.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/Dialogs/Services/ServicesStyles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Services/ServicesStyles.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/screens/Navigation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Navigation.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +47,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/screens" />
       <recent name="$PROJECT_DIR$/src/icons" />
       <recent name="$PROJECT_DIR$/src/components/items" />
       <recent name="$PROJECT_DIR$/src" />
@@ -66,7 +65,7 @@
       <workItem from="1662490706569" duration="11851000" />
       <workItem from="1662550208089" duration="20100000" />
       <workItem from="1662644631731" duration="6038000" />
-      <workItem from="1662660654659" duration="2365000" />
+      <workItem from="1662660654659" duration="3365000" />
     </task>
     <task id="LOCAL-00001" summary="Init, navigation setup, implemented getting user numbers">
       <created>1662562097776</created>
@@ -96,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662661849586</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added navigations">
+      <created>1662663194998</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1662663194998</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +124,7 @@
     <MESSAGE value="Added Sos screen and styles" />
     <MESSAGE value="Added some styles" />
     <MESSAGE value="Fixed icons" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed icons" />
+    <MESSAGE value="Added navigations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added navigations" />
   </component>
 </project>
