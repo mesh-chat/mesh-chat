@@ -7,11 +7,11 @@ export const SosDescription = styled.Text`
 `
 
 export const SosButton = styled.Text`
-  height: 75px;
-  width: 200px;
+  height: 80px;
+  width: 280px;
   background-color: black;
   color: white;
   text-align: center;
-  font-size: 24px;
+  font-size: 40px;
   border-radius: 50px;
 `

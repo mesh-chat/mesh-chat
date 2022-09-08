@@ -1,8 +1,10 @@
 import * as Contacts from "expo-contacts";
 import {HomeView} from "../Home/HomeStyles";
-import {FlatList, TouchableOpacity} from "react-native";
+import {FlatList, TouchableOpacity, View, Text, TextInput} from "react-native";
 import {useEffect, useState} from "react";
 import {Contact} from "../../components/Contact";
+import { Header } from "react-native/Libraries/NewAppScreen";
+import { BottomMenu } from "../../components/items/BottomMenu";
 
 export const DialogsScreen = ({navigation}) => {
     const [contacts, setContacts] = useState();
@@ -23,14 +25,33 @@ export const DialogsScreen = ({navigation}) => {
 
     return (
         <HomeView>
-            <FlatList data={contacts} renderItem={({item}) => (
-                <TouchableOpacity onPress={() => navigation.navigate('Dialog', {
-                    name: item.name,
-                    phoneNumbers: item.phoneNumbers && item.phoneNumbers[0] && item.phoneNumbers[0].number
-                })}>
-                    <Contact name={item.name} phoneNumbers={item.phoneNumbers && item.phoneNumbers[0] && item.phoneNumbers[0].number} />
-                </TouchableOpacity>
-            )}/>
+            <Header headerText={"Зв'язок"}/>
+            <Overlay>
+                <View>
+                    <ContactsStyle>
+                    <View>
+                        <ContactsTextStyle>
+                            <Text>Контакти</Text>
+                        </ContactsTextStyle>
+                    </View>
+                </ContactsStyle>
+                    <Search>
+                        <TextInput
+                            value={search}
+                            placeholder="Пошук контактів"
+                        />
+                    </Search>
+                <FlatList data={contacts} renderItem={({item}) => (
+                    <TouchableOpacity onPress={() => navigation.navigate('Dialog', {
+                        name: item.name,
+                        phoneNumbers: item.phoneNumbers && item.phoneNumbers[0] && item.phoneNumbers[0].number
+                    })}>
+                        <Contact name={item.name} phoneNumbers={item.phoneNumbers && item.phoneNumbers[0] && item.phoneNumbers[0].number} />
+                    </TouchableOpacity>
+                )}/>
+                </View>
+            </Overlay>
+            <BottomMenu></BottomMenu>
         </HomeView>
     );
 }

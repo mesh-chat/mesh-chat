@@ -1,6 +1,8 @@
-import {Alert, TouchableOpacity} from 'react-native';
+import {Alert, TouchableOpacity, View} from 'react-native';
 import {HomeButton, HomeTextInput, HomeView} from "./HomeStyles";
 import styled from "styled-components/native";
+import { Header} from '../../components/items/Header';
+import {BottomMenu} from '../../components/items/BottomMenu';
 
 const PostText = styled.Text`
   font-size: 18px;
@@ -16,6 +18,7 @@ export const HomeScreen = ({navigation, phoneNumber, updatePhoneNumber}) => {
 
     return (
         <HomeView>
+            <Header headerText={''}/>
             <HomeTextInput onChange={onChangePhoneNumber} placeholder="Enter your number: " value={phoneNumber}></HomeTextInput>
             <HomeButton title="Submit" onPress={() => Alert.alert("Надо либу подключить :(")} />
             <TouchableOpacity onPress={() => navigation.navigate('Dialogs', {})}>
@@ -24,6 +27,7 @@ export const HomeScreen = ({navigation, phoneNumber, updatePhoneNumber}) => {
             <TouchableOpacity onPress={() => navigation.navigate('SOS', {})}>
                 <PostText> {"SOS"} </PostText>
             </TouchableOpacity>
+            <BottomMenu></BottomMenu>
         </HomeView>
     );
 }

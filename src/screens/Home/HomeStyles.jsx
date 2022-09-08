@@ -13,6 +13,7 @@ export const HomeButton = styled.Button`
 `
 
 export const HomeTextInput = styled.TextInput`
+  font-family: e-Ukraine-Bold;
   height: 40px;
   margin: 12px;
   border-width: 1px;
