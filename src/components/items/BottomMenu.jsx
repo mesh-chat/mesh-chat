@@ -8,7 +8,7 @@ export const BottomMenu = ({ navigation }) => {
         <BottomMenuStyle>
             {
                 buttonsData.map(item => (
-                    <View>
+                    <View style={{alignItems: item.center}}>
                         <TouchableOpacity onPress={() => navigation.navigate(item.navigation, {})}>
                             <Image source={item.image} style={{width: item.width, height: item.height}}/>
                         </TouchableOpacity>

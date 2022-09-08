@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="24aa436b-fc9d-4248-804c-d5b8bb08eabd" name="Changes" comment="folder structure changed">
-      <change afterPath="$PROJECT_DIR$/src/components/ContactStyles.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/items/Message.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/items/MessageStyles.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icons/FriendMessage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icons/MyMessage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/queries_indexer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/NumberImput/NumberInput.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Contact.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contact.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/Dialogs/Dialog/Dialog.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Dialogs/Dialog/Dialog.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/items/BottomMenu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/items/BottomMenu.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/items/BottomMenuStyles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/items/BottomMenuStyles.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/items/ButtonsData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/items/ButtonsData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/items/Message.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/items/Message.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/items/MessageStyles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/items/MessageStyles.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/screens/Dialogs/Dialog/DialogStyles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Dialogs/Dialog/DialogStyles.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +27,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -44,6 +48,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/home/yurii/Desktop/projects/Android/src/icons",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "ts.external.directory.path": "/home/yurii/Downloads/WebStorm-2022.1.2/WebStorm-221.5787.30/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
@@ -73,6 +81,7 @@
       <workItem from="1662550208089" duration="20100000" />
       <workItem from="1662644631731" duration="6038000" />
       <workItem from="1662660654659" duration="23662000" />
+      <workItem from="1662675619687" duration="5628000" />
     </task>
     <task id="LOCAL-00001" summary="Init, navigation setup, implemented getting user numbers">
       <created>1662562097776</created>
