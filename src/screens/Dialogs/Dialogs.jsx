@@ -3,8 +3,9 @@ import {HomeView} from "../Home/HomeStyles";
 import {FlatList, TouchableOpacity, View, Text, TextInput} from "react-native";
 import {useEffect, useState} from "react";
 import {Contact} from "../../components/Contact";
-import { Header } from "react-native/Libraries/NewAppScreen";
+import { Header } from "../../components/items/Header";
 import { BottomMenu } from "../../components/items/BottomMenu";
+import {ContactsStyle, ContactsTextStyle, Overlay, Search} from "./DialogsStyles";
 
 export const DialogsScreen = ({navigation}) => {
     const [contacts, setContacts] = useState();
@@ -31,13 +32,13 @@ export const DialogsScreen = ({navigation}) => {
                     <ContactsStyle>
                     <View>
                         <ContactsTextStyle>
-                            <Text>Контакти</Text>
+                            <Text>{'Контакти'}</Text>
                         </ContactsTextStyle>
                     </View>
                 </ContactsStyle>
                     <Search>
                         <TextInput
-                            value={search}
+                            value={'search'}
                             placeholder="Пошук контактів"
                         />
                     </Search>
@@ -51,7 +52,7 @@ export const DialogsScreen = ({navigation}) => {
                 )}/>
                 </View>
             </Overlay>
-            <BottomMenu></BottomMenu>
+            <BottomMenu />
         </HomeView>
     );
 }

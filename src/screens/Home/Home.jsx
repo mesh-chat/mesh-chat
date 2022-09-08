@@ -27,7 +27,7 @@ export const HomeScreen = ({navigation, phoneNumber, updatePhoneNumber}) => {
             <TouchableOpacity onPress={() => navigation.navigate('SOS', {})}>
                 <PostText> {"SOS"} </PostText>
             </TouchableOpacity>
-            <BottomMenu></BottomMenu>
+            <BottomMenu />
         </HomeView>
     );
 }

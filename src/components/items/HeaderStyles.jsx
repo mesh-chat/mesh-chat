@@ -1,10 +1,10 @@
 import styled from "styled-components/native";
 
 export const HeaderStyle = styled.View`
-    flexDirection: row;
-    marginTop: 16px;
+    flex-direction: row;
+    margin-top: 16px;
     height: 100px;
-    alignItems: center;
+    align-items: center;
 `
 export const Logo = styled.View`;
     margin: 8px;

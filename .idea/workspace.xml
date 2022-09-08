@@ -2,23 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24aa436b-fc9d-4248-804c-d5b8bb08eabd" name="Changes" comment="Added some styles">
-      <change afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/Dialogs/DialogsStyles.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/Home/HomeContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Contact.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contact.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/Dialogs/Dialog/Dialog.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Dialogs/Dialog/Dialog.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/Dialogs/Dialog/DialogStyles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Dialogs/Dialog/DialogStyles.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Dialogs/Dialogs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/Dialogs/DialogsStyles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/home-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/Home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Home/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/Home/HomeStyles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Home/HomeStyles.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/Navigation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Navigation.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/Sos/Sos.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Sos/Sos.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/Sos/SosStyles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Sos/SosStyles.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc_2022-09-08_02-29-55.svgrrc" beforeDir="false" afterPath="$PROJECT_DIR$/.svgrrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/items/BottomMenu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/items/BottomMenu.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/items/BottomMenuStyles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/items/BottomMenuStyles.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/items/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/items/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/items/HeaderStyles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/items/HeaderStyles.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Menu icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/items/MenuIcon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/Dialogs/Dialog/DialogStyles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Dialogs/Dialog/DialogStyles.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Dialogs/Dialogs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/Dialogs/DialogsStyles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Dialogs/DialogsStyles.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/Home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Home/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/Home/HomeStyles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Home/HomeStyles.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +43,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/yurii/Desktop/projects/react/FirstProject",
+    "last_opened_file_path": "/home/yurii/Desktop/projects/react/FirstProject/first-app",
     "nodejs_package_manager_path": "npm",
     "ts.external.directory.path": "/home/yurii/Downloads/WebStorm-2022.1.2/WebStorm-221.5787.30/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
@@ -56,6 +51,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/items" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/screens/Home" />
     </key>
@@ -70,6 +66,7 @@
       <updated>1662490705277</updated>
       <workItem from="1662490706569" duration="11851000" />
       <workItem from="1662550208089" duration="20100000" />
+      <workItem from="1662644631731" duration="6038000" />
     </task>
     <task id="LOCAL-00001" summary="Init, navigation setup, implemented getting user numbers">
       <created>1662562097776</created>

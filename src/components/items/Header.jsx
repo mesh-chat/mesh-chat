@@ -20,7 +20,7 @@ export const Header = ({headerText}) => {
                 <Text style={{
                         fontSize: 30,
                         }}> 
-                    {headerText} 
+                    {headerText}
                 </Text> 
             </HeaderStyle>
         </View>
