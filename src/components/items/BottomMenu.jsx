@@ -5,24 +5,34 @@ import {BottomMenuStyle} from "./BottomMenuStyles";
 export const BottomMenu = () => {
     const buttonsData = [
         {
-            image: '../../icons/Documents icon.png',
+            image: require('../../icons/DocumentsIcon.png'),
             name: 'Документи',
+            width: 20,
+            height: 20,
         },
         {
-            image: '../../icons/Services icon.png',
+            image: require('../../icons/ServicesIcon.png'),
             name: 'Послуги',
+            width: 20,
+            height: 20,
         },
         {
-            image: '../../icons/Notification icon.png',
+            image: require('../../icons/NotificationIcon.png'),
             name: 'Повідомлення',
+            width: 20,
+            height: 20,
         },
         {
-            image: '../../icons/Chat icon.png',
+            image: require('../../icons/ChatIcon.png'),
             name: "Зв'язок",
+            width: 30,
+            height: 20,
         },
         {
-            image: './MenuIcon.png',
+            image: require('../../icons/MenuIcon.png'),
             name: 'Меню',
+            width: 20,
+            height: 20,
         }
     ]
 
@@ -32,7 +42,7 @@ export const BottomMenu = () => {
                 buttonsData.map(item => (
                     <View>
                         <TouchableOpacity onPress={() => alert("Click")}>
-                            <Image source={require(item.image)}/>
+                            <Image source={item.image} style={{width: item.width, height: item.height}}/>
                         </TouchableOpacity>
                         <Text>{item.name}</Text>
                     </View>

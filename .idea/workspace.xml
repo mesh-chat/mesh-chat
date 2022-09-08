@@ -3,17 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="24aa436b-fc9d-4248-804c-d5b8bb08eabd" name="Changes" comment="Added some styles">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc_2022-09-08_02-29-55.svgrrc" beforeDir="false" afterPath="$PROJECT_DIR$/.svgrrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/items/BottomMenu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/items/BottomMenu.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/items/BottomMenuStyles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/items/BottomMenuStyles.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/items/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/items/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/items/HeaderStyles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/items/HeaderStyles.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/icons/Menu icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/items/MenuIcon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/Dialogs/Dialog/DialogStyles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Dialogs/Dialog/DialogStyles.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Dialogs/Dialogs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/Dialogs/DialogsStyles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Dialogs/DialogsStyles.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/Home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Home/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/Home/HomeStyles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Home/HomeStyles.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/items/MenuIcon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/MenuIcon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Chat icon dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/ChatIconDark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Chat icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/ChatIcon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Documents icon dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/DocumentsIconDark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Documents icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/DocumentsIcon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Menu icon darl.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/MenuIconDarl.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Notification icon dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/NotificationIconDark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Notification icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/NotificationIcon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Services icon dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/ServicesIconDark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Services icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/ServicesIcon.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,19 +38,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/yurii/Desktop/projects/react/FirstProject/first-app",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "/home/yurii/Downloads/WebStorm-2022.1.2/WebStorm-221.5787.30/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/yurii/Desktop/projects/react/FirstProject/first-app&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/home/yurii/Downloads/WebStorm-2022.1.2/WebStorm-221.5787.30/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/icons" />
       <recent name="$PROJECT_DIR$/src/components/items" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/screens/Home" />
@@ -67,6 +68,7 @@
       <workItem from="1662490706569" duration="11851000" />
       <workItem from="1662550208089" duration="20100000" />
       <workItem from="1662644631731" duration="6038000" />
+      <workItem from="1662660654659" duration="1185000" />
     </task>
     <task id="LOCAL-00001" summary="Init, navigation setup, implemented getting user numbers">
       <created>1662562097776</created>
