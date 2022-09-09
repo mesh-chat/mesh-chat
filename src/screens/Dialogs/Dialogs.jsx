@@ -36,12 +36,6 @@ export const DialogsScreen = ({ navigation }) => {
                         </ContactsTextStyle>
                     </View>
                 </ContactsStyle>
-                    <Search>
-                        <TextInput
-                            value={'search'}
-                            placeholder="Пошук контактів"
-                        />
-                    </Search>
                 <FlatList data={contacts} renderItem={({item}) => (
                     <TouchableOpacity onPress={() => navigation.navigate('Dialog', {
                         name: item.name,

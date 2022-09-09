@@ -16,9 +16,9 @@ export const Navigation = () => {
     return (
         <NavigationContainer>
             <Stack.Navigator screen screenOptions={{headerShown: false}}>
-                <Stack.Screen name="Home" component={HomeScreenContainer} options={{title: 'Home'}} />
+                {/*<Stack.Screen name="Home" component={HomeScreenContainer} options={{title: 'Home'}} />*/}
 
-                <Stack.Screen name="EnterPhoneNumber" component={EnterPhoneNumberScreen} options={{title: 'EnterPhoneNumber'}} />
+                <Stack.Screen name="Home" component={EnterPhoneNumberScreen} options={{title: 'Home'}} />
                 <Stack.Screen name="SOS" component={SosScreen} options={{title: 'SOS'}}/>
 
                 <Stack.Screen name="Documents" component={DocumentsScreen} options={{title: 'Documents'}}/>

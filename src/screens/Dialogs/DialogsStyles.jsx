@@ -17,6 +17,7 @@ export const ContactsTextStyle = styled.Text`
 `
 
 export const Search = styled.View`
+    margin-left: 10px;
     width: 380px;
     height: 46px;
     border-radius: 5px;

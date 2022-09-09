@@ -44,5 +44,4 @@ export const FriendDateText = styled.Text`
   margin-top: 5px;
   margin-right: 15px;
   text-align: right;
-
 `

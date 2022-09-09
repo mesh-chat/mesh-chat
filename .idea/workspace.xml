@@ -2,19 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24aa436b-fc9d-4248-804c-d5b8bb08eabd" name="Changes" comment="Implemented requests for the indexer, added display of messages">
-      <change afterPath="$PROJECT_DIR$/src/screens/Dialogs/Dialog/HeaderDialog.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/EnterPhoneNumber/EnterPhoneNumber.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/EnterPhoneNumber/EnterPhoneNumberStyles.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Contact.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contact.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ContactStyles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContactStyles.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/items/Message.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/items/Message.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/items/BottomMenu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/items/BottomMenu.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/items/ButtonsData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/items/ButtonsData.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/items/MessageStyles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/items/MessageStyles.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/Dialogs/Dialog/Dialog.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Dialogs/Dialog/Dialog.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/Dialogs/Dialog/DialogStyles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Dialogs/Dialog/DialogStyles.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/Home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Home/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Dialogs/Dialogs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/Dialogs/DialogsStyles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Dialogs/DialogsStyles.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/EnterPhoneNumber/EnterPhoneNumber.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/EnterPhoneNumber/EnterPhoneNumber.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/screens/Navigation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Navigation.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/queries_indexer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/queries_indexer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="layout_branch" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,17 +40,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/yurii/Desktop/projects/Android/src/icons",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "/home/yurii/Downloads/WebStorm-2022.1.2/WebStorm-221.5787.30/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/yurii/Desktop/projects/Android/src/icons&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/home/yurii/Downloads/WebStorm-2022.1.2/WebStorm-221.5787.30/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/icons" />
@@ -146,7 +142,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="main" />
+                        <option value="home_screen" />
                       </list>
                     </value>
                   </entry>
