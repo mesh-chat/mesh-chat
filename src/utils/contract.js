@@ -36,4 +36,5 @@ let sendMessage = async (from, to, message) => {
 };
 
 export default registerAccount;
+export default sendMessage;
 export default contract;
