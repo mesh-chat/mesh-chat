@@ -25,9 +25,6 @@ export const HomeScreen = ({navigation, phoneNumber, updatePhoneNumber}) => {
             <Header headerText={''}/>
             <HomeTextInput onChange={onChangePhoneNumber} placeholder="Enter your number: " value={phoneNumber}></HomeTextInput>
             <HomeButton title="Submit" onPress={() => Alert.alert("Надо либу подключить :(")} />
-            <TouchableOpacity onPress={() => navigation.navigate('SOS', {})}>
-                <PostText> {"SOS"} </PostText>
-            </TouchableOpacity>
             <BottomMenu navigation={navigation} />
         </HomeView>
     );

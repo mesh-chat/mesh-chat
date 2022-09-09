@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="24aa436b-fc9d-4248-804c-d5b8bb08eabd" name="Changes" comment="Implemented requests for the indexer, added display of messages">
-      <change afterPath="$PROJECT_DIR$/src/screens/Dialogs/Dialog/HeaderDialog.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/EnterPhoneNumber/EnterPhoneNumber.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/EnterPhoneNumber/EnterPhoneNumberStyles.jsx" afterDir="false" />
+    <list default="true" id="24aa436b-fc9d-4248-804c-d5b8bb08eabd" name="Changes" comment="folder structure changed">
+      <change afterPath="$PROJECT_DIR$/src/icons/Sendicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/Dialogs/Dialog/FooterDialog.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/Dialogs/Dialog/FooterDialogStyles.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Contact.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contact.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ContactStyles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContactStyles.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/items/Message.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/items/Message.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/items/BottomMenu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/items/BottomMenu.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/items/BottomMenuStyles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/items/BottomMenuStyles.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/items/ButtonsData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/items/ButtonsData.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/items/MessageStyles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/items/MessageStyles.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/screens/Dialogs/Dialog/Dialog.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Dialogs/Dialog/Dialog.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/Dialogs/Dialog/DialogStyles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Dialogs/Dialog/DialogStyles.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/Dialogs/Dialog/HeaderDialog.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Dialogs/Dialog/HeaderDialog.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/screens/Home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Home/Home.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/screens/Navigation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Navigation.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/queries_indexer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/queries_indexer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/Sos/Sos.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/Sos/SosStyles.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +55,11 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/yurii/Desktop/projects/Android/src/icons",
+    "last_opened_file_path": "D:/Past projects/Zvyazok/src/icons",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "ts.external.directory.path": "/home/yurii/Downloads/WebStorm-2022.1.2/WebStorm-221.5787.30/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
@@ -57,6 +67,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Past projects\Zvyazok\src\icons" />
       <recent name="$PROJECT_DIR$/src/icons" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -78,7 +89,8 @@
       <workItem from="1662490706569" duration="11851000" />
       <workItem from="1662550208089" duration="20100000" />
       <workItem from="1662644631731" duration="6038000" />
-      <workItem from="1662660654659" duration="30067000" />
+      <workItem from="1662660654659" duration="23662000" />
+      <workItem from="1662675619687" duration="15013000" />
     </task>
     <task id="LOCAL-00001" summary="Init, navigation setup, implemented getting user numbers">
       <created>1662562097776</created>
@@ -122,12 +134,12 @@
       <option name="project" value="LOCAL" />
       <updated>1662664367505</updated>
     </task>
-    <task id="LOCAL-00007" summary="Implemented requests for the indexer, added display of messages">
-      <created>1662685831402</created>
+    <task id="LOCAL-00007" summary="folder structure changed">
+      <created>1662681463775</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1662685831402</updated>
+      <updated>1662681463775</updated>
     </task>
     <option name="localTasksCounter" value="8" />
     <servers />
@@ -140,19 +152,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="main" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -165,7 +165,6 @@
     <MESSAGE value="Fixed icons" />
     <MESSAGE value="Added navigations" />
     <MESSAGE value="folder structure changed" />
-    <MESSAGE value="Implemented requests for the indexer, added display of messages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented requests for the indexer, added display of messages" />
+    <option name="LAST_COMMIT_MESSAGE" value="folder structure changed" />
   </component>
 </project>

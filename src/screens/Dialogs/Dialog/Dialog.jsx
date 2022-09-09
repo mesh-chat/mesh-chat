@@ -4,6 +4,7 @@ import {messageQuery} from "../../../utils/queries_indexer";
 import {FlatList, Text, View} from "react-native";
 import {Message} from "../../../components/items/Message";
 import {HeaderDialog} from "./HeaderDialog";
+import {FooterDialog} from "./FooterDialog";
 
 const indexerUrl = 'https://api.thegraph.com/subgraphs/name/mesh-chat/mesh-chat-indexer';
 
@@ -93,6 +94,7 @@ export const DialogScreen = ({ route, navigation }) => {
             <MessagesView>
                 <FlatList data={messagesData} renderItem={renderItem} />
             </MessagesView>
+            <FooterDialog></FooterDialog>
         </DialogView>
     )
 }

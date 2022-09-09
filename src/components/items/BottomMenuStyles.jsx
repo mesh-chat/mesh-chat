@@ -1,7 +1,7 @@
 import styled from "styled-components/native";
 
 export const BottomMenuStyle = styled.View`
-    background: red;
+    background: bisque;
     flex-direction: row;
     height: 80px;
     justify-content: space-evenly;
