@@ -1,8 +1,9 @@
-import {PhoneNumber, DialogDetails, DialogImage, DialogTitle, DialogView} from "./DialogStyles";
+import {PhoneNumber, DialogDetails, DialogTitle, DialogView, MessagesView} from "./DialogStyles";
 import {useEffect, useState} from "react";
 import {messageQuery} from "../../../utils/queries_indexer";
 import {FlatList, Text, View} from "react-native";
 import {Message} from "../../../components/items/Message";
+import {HeaderDialog} from "./HeaderDialog";
 
 const indexerUrl = 'https://api.thegraph.com/subgraphs/name/mesh-chat/mesh-chat-indexer';
 
@@ -88,13 +89,10 @@ export const DialogScreen = ({ route, navigation }) => {
 
     return (
         <DialogView>
-            <DialogDetails>
-                <DialogTitle>{ name }</DialogTitle>
-                <PhoneNumber> { phoneNumbers } </PhoneNumber>
-            </DialogDetails>
-            <View>
+            <HeaderDialog name={name} phoneNumbers={phoneNumbers} />
+            <MessagesView>
                 <FlatList data={messagesData} renderItem={renderItem} />
-            </View>
+            </MessagesView>
         </DialogView>
     )
 }

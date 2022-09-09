@@ -16,6 +16,10 @@ export const HomeScreen = ({navigation, phoneNumber, updatePhoneNumber}) => {
         updatePhoneNumber(phoneNumber)
     }
 
+    if (phoneNumber === '') {
+        navigation.navigate('EnterPhoneNumber')
+    }
+
     return (
         <HomeView>
             <Header headerText={''}/>

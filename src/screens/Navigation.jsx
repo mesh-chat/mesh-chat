@@ -8,6 +8,7 @@ import {DocumentsScreen} from "./Documents/Documents";
 import {NotificationsScreen} from "./Notifications/Notifications";
 import {ServicesScreen} from "./Services/Services";
 import {MenuScreen} from "./Menu/Menu";
+import {EnterPhoneNumberScreen} from "./EnterPhoneNumber/EnterPhoneNumber";
 
 const Stack = createNativeStackNavigator();
 
@@ -16,6 +17,8 @@ export const Navigation = () => {
         <NavigationContainer>
             <Stack.Navigator screen screenOptions={{headerShown: false}}>
                 <Stack.Screen name="Home" component={HomeScreenContainer} options={{title: 'Home'}} />
+
+                <Stack.Screen name="EnterPhoneNumber" component={EnterPhoneNumberScreen} options={{title: 'EnterPhoneNumber'}} />
                 <Stack.Screen name="SOS" component={SosScreen} options={{title: 'SOS'}}/>
 
                 <Stack.Screen name="Documents" component={DocumentsScreen} options={{title: 'Documents'}}/>

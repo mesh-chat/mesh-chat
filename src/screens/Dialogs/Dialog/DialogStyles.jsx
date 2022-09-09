@@ -1,13 +1,7 @@
 import styled from "styled-components/native";
 
-export const Overlay = styled.View`
-    height: 100%;
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.5);
-`
 
 export const DialogView = styled.View`
-  flex-direction: row;
   padding: 15px;
   height: 100%;
   width: 100%;
@@ -28,17 +22,13 @@ export const DialogDetails = styled.View`
   justify-content: center;
 `
 
-export const DialogImage = styled.Image`
-  width: 60px;
-  height: 60px;
-  border-radius: 12px;
-  margin-right: 12px;
-  //font-family: 'e-Ukraine-Bold';
-`;
-
 export const PhoneNumber = styled.Text`
   font-size: 12px;
   color: rgba(0, 0, 0, 0.4);
   margin-top: 2px;
   //font-family: 'e-Ukraine-Bold';
+`
+
+export const MessagesView = styled.View`
+    align-items: center;
 `
