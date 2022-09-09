@@ -3,6 +3,7 @@ import {useEffect, useState} from "react";
 import {messageQuery} from "../../../utils/queries_indexer";
 import {FlatList, Text, View} from "react-native";
 import {Message} from "../../../components/items/Message";
+import {sendMesssage, registerAccount} from "../../../utils/contract";
 
 const indexerUrl = 'https://api.thegraph.com/subgraphs/name/mesh-chat/mesh-chat-indexer';
 
