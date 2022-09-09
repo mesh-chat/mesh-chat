@@ -17,6 +17,7 @@
     "expo": "~46.0.9",
     "expo-contacts": "^10.3.0",
     "expo-status-bar": "~1.4.0",
+    "gql-query-builder": "^3.7.1",
     "react": "18.0.0",
     "react-native": "0.69.5",
     "react-native-contacts": "^7.0.5",

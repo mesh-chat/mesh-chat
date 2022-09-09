@@ -1,12 +1,12 @@
-import {DialogDate, DialogDetails, DialogImage, DialogTitle, DialogView} from "../screens/Dialogs/Dialog/DialogStyles";
+import {DialogDetails, DialogTitle} from "../screens/Dialogs/Dialog/DialogStyles";
+import {ContactView} from "./ContactStyles";
 
 export const Contact = ({ name, phoneNumbers }) => {
-    console.log(phoneNumbers)
     return (
-        <DialogView>
+        <ContactView>
             <DialogDetails>
                 <DialogTitle>{ name }</DialogTitle>
                 <DialogTitle>{ phoneNumbers }</DialogTitle>
             </DialogDetails>
-        </DialogView>)
+        </ContactView>)
 }

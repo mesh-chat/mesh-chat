@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="24aa436b-fc9d-4248-804c-d5b8bb08eabd" name="Changes" comment="Added navigations">
+    <list default="true" id="24aa436b-fc9d-4248-804c-d5b8bb08eabd" name="Changes" comment="folder structure changed">
+      <change afterPath="$PROJECT_DIR$/src/components/ContactStyles.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/items/Message.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/items/MessageStyles.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/FriendMessage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/MyMessage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/queries_indexer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/Dialogs/Menu/Menu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Menu/Menu.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/Dialogs/Menu/MenuStyles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Menu/MenuStyles.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/Dialogs/Notifications/Notifications.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Notifications/Notifications.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/Dialogs/Notifications/NotificationsStyles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Notifications/NotificationsStyles.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/Dialogs/Services/Services.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Services/Services.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/Dialogs/Services/ServicesStyles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Services/ServicesStyles.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/Navigation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Navigation.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contact.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contact.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/Dialogs/Dialog/Dialog.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Dialogs/Dialog/Dialog.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/Dialogs/Dialog/DialogStyles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Dialogs/Dialog/DialogStyles.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,18 +38,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/yurii/Desktop/projects/react/FirstProject/first-app&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/home/yurii/Downloads/WebStorm-2022.1.2/WebStorm-221.5787.30/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/yurii/Desktop/projects/Android/src/icons",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/home/yurii/Downloads/WebStorm-2022.1.2/WebStorm-221.5787.30/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/icons" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/screens" />
       <recent name="$PROJECT_DIR$/src/icons" />
@@ -65,7 +72,7 @@
       <workItem from="1662490706569" duration="11851000" />
       <workItem from="1662550208089" duration="20100000" />
       <workItem from="1662644631731" duration="6038000" />
-      <workItem from="1662660654659" duration="3365000" />
+      <workItem from="1662660654659" duration="23662000" />
     </task>
     <task id="LOCAL-00001" summary="Init, navigation setup, implemented getting user numbers">
       <created>1662562097776</created>
@@ -102,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662663194998</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="folder structure changed">
+      <created>1662664367505</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1662664367505</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +139,7 @@
     <MESSAGE value="Added some styles" />
     <MESSAGE value="Fixed icons" />
     <MESSAGE value="Added navigations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added navigations" />
+    <MESSAGE value="folder structure changed" />
+    <option name="LAST_COMMIT_MESSAGE" value="folder structure changed" />
   </component>
 </project>

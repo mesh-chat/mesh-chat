@@ -9,7 +9,7 @@ export const Overlay = styled.View`
 export const DialogView = styled.View`
   flex-direction: row;
   padding: 15px;
-  height: 100px;
+  height: 100%;
   width: 100%;
   border-bottom-width: 1px;
   border-bottom-color: rgba(0, 0, 0, 0.1);
@@ -36,7 +36,7 @@ export const DialogImage = styled.Image`
   //font-family: 'e-Ukraine-Bold';
 `;
 
-export const DialogDate = styled.Text`
+export const PhoneNumber = styled.Text`
   font-size: 12px;
   color: rgba(0, 0, 0, 0.4);
   margin-top: 2px;
