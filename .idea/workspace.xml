@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="24aa436b-fc9d-4248-804c-d5b8bb08eabd" name="Changes" comment="Implemented requests for the indexer, added display of messages">
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/items/BottomMenu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/items/BottomMenu.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/items/ButtonsData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/items/ButtonsData.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/items/MessageStyles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/items/MessageStyles.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Dialogs/Dialogs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/Dialogs/DialogsStyles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Dialogs/DialogsStyles.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/EnterPhoneNumber/EnterPhoneNumber.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/EnterPhoneNumber/EnterPhoneNumber.jsx" afterDir="false" />
+    <list default="true" id="24aa436b-fc9d-4248-804c-d5b8bb08eabd" name="Changes" comment="Added enter phone number screen">
       <change beforePath="$PROJECT_DIR$/src/screens/Navigation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Navigation.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662685831402</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added enter phone number screen">
+      <created>1662701223736</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1662701223736</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,6 +161,7 @@
     <MESSAGE value="Added navigations" />
     <MESSAGE value="folder structure changed" />
     <MESSAGE value="Implemented requests for the indexer, added display of messages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented requests for the indexer, added display of messages" />
+    <MESSAGE value="Added enter phone number screen" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added enter phone number screen" />
   </component>
 </project>
