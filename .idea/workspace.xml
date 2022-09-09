@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24aa436b-fc9d-4248-804c-d5b8bb08eabd" name="Changes" comment="folder structure changed">
-      <change afterPath="$PROJECT_DIR$/src/icons/Sendicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/Dialogs/Dialog/FooterDialog.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/Dialogs/Dialog/FooterDialogStyles.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/items/BottomMenu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/items/BottomMenu.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/items/BottomMenuStyles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/items/BottomMenuStyles.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/items/ButtonsData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/items/ButtonsData.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/items/MessageStyles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/items/MessageStyles.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/Dialogs/Dialog/Dialog.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Dialogs/Dialog/Dialog.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/Dialogs/Dialog/HeaderDialog.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Dialogs/Dialog/HeaderDialog.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/Home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Home/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/Navigation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Navigation.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/Sos/Sos.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/Sos/SosStyles.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-    </list>
+    <list default="true" id="24aa436b-fc9d-4248-804c-d5b8bb08eabd" name="Changes" comment="folder structure changed" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,7 +73,7 @@
       <workItem from="1662550208089" duration="20100000" />
       <workItem from="1662644631731" duration="6038000" />
       <workItem from="1662660654659" duration="23662000" />
-      <workItem from="1662675619687" duration="15013000" />
+      <workItem from="1662675619687" duration="15304000" />
     </task>
     <task id="LOCAL-00001" summary="Init, navigation setup, implemented getting user numbers">
       <created>1662562097776</created>
@@ -141,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662681463775</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="folder structure changed">
+      <created>1662691079643</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1662691079643</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
